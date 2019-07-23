@@ -5,14 +5,17 @@ using System.Web;
 
 namespace MemoryGame.GameLogic
 {
+    /// <summary>
+    /// An image to memorize. Not complete, may scrap
+    /// </summary>
     public class MemoryImage: MemoryItem
     {
         private string _imageFile;
         private string _imageName;
 
-        override public bool Compare(MemoryItem compareTo)
+        override public int CompareTo(MemoryItem compareTo)
         {
-            bool same = true;
+            int same = 0;
 
             return same;
         }
