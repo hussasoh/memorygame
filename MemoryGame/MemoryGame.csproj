@@ -121,6 +121,19 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="GameLogic\Difficulty.cs" />
+    <Compile Include="GameLogic\GameMode.cs" />
+    <Compile Include="GameLogic\GameRound.cs" />
+    <Compile Include="GameLogic\MemoryGame.cs" />
+    <Compile Include="GameLogic\MemoryImage.cs" />
+    <Compile Include="GameLogic\MemoryItem.cs" />
+    <Compile Include="GameLogic\MemoryLetter.cs" />
+    <Compile Include="GameLogic\MemoryNumber.cs" />
+    <Compile Include="GameLogic\MemorySequence.cs" />
+    <Compile Include="GameLogic\MemoryShape.cs" />
+    <Compile Include="GameLogic\Player.cs" />
+    <Compile Include="GameLogic\ScoreList.cs" />
+    <Compile Include="GameLogic\Shape.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
