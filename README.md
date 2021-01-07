@@ -1,2 +1,2 @@
 # memorygame
-memory game - it is pretty harddddd
+memory game
